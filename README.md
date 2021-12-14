@@ -1,4 +1,14 @@
-# Gallery.css
+# Gallery.css Responsive
+
+Based on Ben Schwartz's Gallery.css
+https://github.com/benschwarz/gallery-css
+
+Enhancements:
+* Responsive with aspect ratio setup
+* have up to 7 items instead of 5
+* reduced redundant code
+* more CSS3 Layout for the navigation
+* added prev/next to the base version. 
 
 Gallery.css is *all* CSS. Think: Simple, maintainable and understandable galleries without the use of Javascript. 
 
@@ -6,11 +16,7 @@ _What? No script!? Why?_ — Gallery css started as an experiment to build inter
 
 ## Installation
 
-The preferred method to install gallery-css is by using Bower, a package manager for front-end components.
-
-`bower install gallery-css`
-
-Otherwise, if you want to keep it simple, check the [dist directory](/dist).
+check the [dist directory](/dist).
 
 ## Getting started
 
@@ -25,8 +31,6 @@ Read the [getting started guide](http://benschwarz.github.io/gallery-css#getting
 ## How does it work? 
 
 [![Gallery CSS screencast: Building advanced web componentry using only CSS](http://0.germanforblack.com/poster.png_20130506_153359.jpg)](http://benschwarz.github.io/gallery-css)
-
-I've [prepared a screencast](http://benschwarz.github.io/gallery-css) that will take you through how to build something like Gallery-css from scratch, theres tonnes of tiny details that I learnt myself while building it. Its $15, you'll learn and it'll help me keep building for the web. How good is that? 
 
 ## Browser support
 
@@ -54,13 +58,3 @@ I've [prepared a screencast](http://benschwarz.github.io/gallery-css) that will 
 </table>
 
 † [Absolutely possible](examples/ie-8) using a variety of JS selector shims, although not recommended.
-
-## Build instructions
-
-Gallery CSS is built using [grunt](http://gruntjs.com) & RubySASS.
-
-You'll need:
-
-* Ruby (and sass - `gem install sass`)
-* Run `npm install` from the root directory.
-* To run a build, you'll simply need to run `grunt`.
